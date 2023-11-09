@@ -11,3 +11,7 @@ print('what to print')""")
 
 #solution 2
 print("Day 1 - Python Print Function\nThe function is declared like this:\nprint('what to print')")
+
+# print Hello, your_name
+#use string concatenation
+print("Hello, " + "Anelya")
