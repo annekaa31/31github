@@ -11,3 +11,9 @@ print("Hello"[4])
 
 # still strings
 print("123" + "988")
+
+
+# Integer
+print(123 + 988)
+
+#312987567 = 312_987_567
