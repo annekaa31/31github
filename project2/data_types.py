@@ -20,3 +20,6 @@ print(123 + 988)
 
 # Float
 print(3.12786)
+
+# Boolean
+# true false
