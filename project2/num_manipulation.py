@@ -1,7 +1,7 @@
 print(round(8/3))
 # 3
 
-print(rount(8/3, 2))
+print(round(8/3, 2))
 # 2.67
 
 print(8 // 3)
