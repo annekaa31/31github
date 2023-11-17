@@ -1,13 +1,13 @@
-print("Welcome to the rollercoaster!")
+print("Welcome to a rollercoaster!")
 height = int(input("What is your height? "))
-if height >= 120:
-  print("Congrats! You can ride a rollercoaster.")
+if height > 120:
+  print("Congrats! You can ride the rollercoaster.")
   age = int(input("What's your age? "))
   if age < 12:
     print("Your ticket price is $5.")
   elif age <= 18:
-    print("Your ticket prace is $7.")
+    print("Your ticket price is $7.")
   else:
-    print("Your ticket prace is $12.")
+    print("Your ticket price is $12.")
 else:
-  print("Sorry, you havee to grow taller to ride a rollercoaster.")
+  print("Sorry, you have to grow taller to ride the rollercoaster.")
