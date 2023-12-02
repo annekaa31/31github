@@ -10,3 +10,12 @@ total_res = 0
 for i in range(2, target + 1, 2):
   total_res += i
 print(total_res)
+
+
+# or
+
+# alternative_sum = 0
+# for i in range(1, target + 1):
+#   if i % 2 == 0:
+#     alternative_sum += i
+# print(alternative_sum)
