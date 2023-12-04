@@ -29,3 +29,10 @@ def jump():
 
 for i in range(6):
     jump()
+
+
+# Another solution with while loop
+# number_of_hurdles = 6
+# while number_of_hurdles > 0:
+#     jump()
+#     number_of_hurdles -= 1
