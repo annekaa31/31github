@@ -4,3 +4,5 @@ programming_dictionary = {
 }
 
 programming_dictionary["Loop"] = "The action of doing something over and over again."
+
+empty_dictionary = {}
