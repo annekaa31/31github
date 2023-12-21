@@ -8,3 +8,8 @@ programming_dictionary["Loop"] = "The action of doing something over and over ag
 empty_dictionary = {}
 
 programming_dictionary["Bug"] = "A moth in your computer."
+
+capitals = {
+  "France": "Paris",
+  "Germany": "Berlin",
+}
