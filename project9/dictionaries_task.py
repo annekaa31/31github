@@ -3,11 +3,26 @@ programming_dictionary = {
   "Function": "A piece of code that you can easily call over and over again.",
 }
 
+
+# Retrive items from dictionary
+# print(programming_dictionary["Bug"]) 
+
+# Adding new items to dictionary
 programming_dictionary["Loop"] = "The action of doing something over and over again."
 
+# Create an empty dictionary
 empty_dictionary = {}
 
+# Wipe an existing dictionary
+# programing_dictionary = {}
+
+# Edit an item in a dictionary
 programming_dictionary["Bug"] = "A moth in your computer."
+
+# Loop through a dictionary
+for key in programming_dictionary:
+	print(key)
+	print(programming_dictionary[key])
 
 capitals = {
   "France": "Paris",
