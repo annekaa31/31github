@@ -5,3 +5,6 @@ def format_name(f_name, l_name):
   formated_f_name = f_name.title()
   formated_l_name = l_name.title()
   f"Result: {formated_f_name} {formated_l_name}"
+
+formatted_name = format_name(input("Your first name: "), input("Your last name: "))
+print(formatted_name)
