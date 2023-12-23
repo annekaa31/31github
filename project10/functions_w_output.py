@@ -8,3 +8,5 @@ def format_name(f_name, l_name):
 
 formatted_name = format_name(input("Your first name: "), input("Your last name: "))
 print(formatted_name)
+
+print(format_name(input("What is your first name? "), input("What is your last name? ")))
