@@ -7,6 +7,11 @@ word_list = ["aardvark", "baboon", "camel"]
 chosen_word = random.choice(word_list)
 print(chosen_word)
 
+display = []
+word_length = len(chosen_word)
+for _ in range(word_length):
+    display += "_"
+
 #TODO-2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
 guess = input("Please guess a letter: ").lower()
 print(guess)
