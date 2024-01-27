@@ -1,6 +1,0 @@
-fahrenheit = int(input("Write temperature in Fahrenheit: "))
-celsius = int(input("Write temperature in Celsius: "))
-fahrenheit_to_celsius = round(5/9 * (fahrenheit - 32))
-celsius_to_fahrenheit = round(5/9 * (fahrenheit - 32))
-print(celsius_to_fahrenheit)
-print(fahrenheit_to_celsius)
