@@ -1,7 +1,10 @@
 def countvowels(string):
-    num_vowels = 0
+    vowels = "aeiou"
+    count = 0
     for char in string:
-        if char in "aeiouAEIOU":
-           num_vowels = num_vowels + 1
-    return num_vowels
-print(countvowels("kitty"))
+        if char in vowels:
+           count += 1
+    return count
+user_input = input("Write any word: ").lower()
+result = countvowels(user_input.lower())
+print(f"Number of vowels: {result}")
