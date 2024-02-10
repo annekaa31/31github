@@ -22,4 +22,4 @@ print(123 + 988)
 print(3.12786)
 
 # Boolean
-# true false
+# True False
