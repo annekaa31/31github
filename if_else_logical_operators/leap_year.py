@@ -14,6 +14,17 @@ else:
   print("Not leap year")
 
 
+# if year % 4 == 0:
+#   if year % 100 != 0:
+#     print("Leap year")
+#   else:
+#     if year % 400 == 0:
+#       print("Leap year")
+#     else:
+#       print("Not leap year")
+# else:
+#   print("Not leap year")
+
 # This is how you work out whether if a particular year is a leap year.
 
 # on every year that is divisible by 4 with no remainder
