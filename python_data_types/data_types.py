@@ -4,7 +4,7 @@
 print("Hello"[0])
 
 # print the last letter in word Hello
-print("Hello[-1]")
+print("Hello"[-1])
 
 # another dump solution
 print("Hello"[4])
@@ -22,4 +22,4 @@ print(123 + 988)
 print(3.12786)
 
 # Boolean
-# true false
+# True False
