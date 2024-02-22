@@ -8,3 +8,7 @@ import random
 random_index = random.randint(1, len(names))
 random_name = names[random_index - 1]
 print(f"{random_name} is going to buy the meal today!")
+
+# another solution 
+# random_index = random.randint(0, len(names) - 1)
+# random_name = names[random_index]
