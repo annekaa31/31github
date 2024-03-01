@@ -11,3 +11,12 @@ def format_data(account):
   country = account["country"]
   # print(f'{name}: {account["follower_count"]}')
   return f"{name}, a {description}, from {country}"
+
+def check_answer(guess, a_followers, b_followers):
+  """Checks followers against user's guess 
+  and returns True if they got it right.
+  Or False if they got it wrong.""" 
+  if a_followers > b_followers:
+    return guess == "a"
+  else:
+    return guess == "b"
